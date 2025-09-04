@@ -1,4 +1,16 @@
 @import "tailwindcss";
+
+/* Add to your global CSS file */
+* {
+  transition-property: color, background-color, transform, opacity;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
 /* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
